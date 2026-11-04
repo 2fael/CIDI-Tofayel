@@ -2,10 +2,6 @@
 pipeline {
     agent { label 'build' }
 
-    triggers {
-        pollSCM('* * * * *')
-    }
-
     options {
         timestamps()
         ansiColor('xterm')
