@@ -1,0 +1,11 @@
+**/bin/
+**/obj/
+.vs/
+.git/
+.gitignore
+**/*.user
+**/appsettings.Development.json
+**/launchSettings.json
+Dockerfile
+.dockerignore
+**/.env
